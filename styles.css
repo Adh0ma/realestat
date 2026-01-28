@@ -1,0 +1,27 @@
+.header{
+    background-image: url(imgas/real-estate.jpg);
+    padding: 140px;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    margin-bottom: 25px;
+}
+h1{
+    background-color: aquamarine;
+    display: inline;
+    font-weight: bold;
+    text-shadow: 0 0 1px black;
+}
+.header-text{
+    background-color: aquamarine;
+    display: inline-block;
+    font-size: 35px;
+    text-shadow: 0 0 1px black;
+}
+.content{
+    display: inline;
+}
+#bulding{
+    width: 100px;
+    border-radius: 50%;
+}
