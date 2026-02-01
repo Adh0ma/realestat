@@ -1,59 +1,92 @@
-body{
-    background-color: linen;
-}
+
 .header{
     background-image: url(imgas/real-estate.jpg);
-    padding: 0px 0px 500px 0px;
+    /* padding: 400px; */
+    image-rendering:inherit;
+    height: 1000px;
     background-size: cover;
     text-align: center;
     color: white;
-    margin-bottom: 25px;
+    /* margin-bottom: 25px; */
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+
 }
-h1{
+.line{
+    background-color: rgb(207, 203, 203);
+    padding-top: 10px;
+}
+.visit{
     background-color: aquamarine;
+    display: inline;
     font-weight: bold;
     text-shadow: 0 0 1px black;
-    display: inline-block;
 }
 .header-text{
     background-color: aquamarine;
+    display: inline-block;
     font-size: 35px;
     text-shadow: 0 0 1px black;
+    
+
 }
-.top-activities{
+.activities{
     text-align: center;
     font-size: 30px;
+    font-weight: bold;
     margin-bottom: 20px;
-}   
+}
 .content{
-    display: flex;
-    flex-direction: row;
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.card1, .card2, .card3{
+
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 15px 143px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+
+}
+#bulding, #sports, #picnic{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    
+}
+
+.the-end{
+    background-color: white;
+    margin-top: 50px;
+    padding: 20px 700px;
+    flex-wrap: wrap;
+
+}
+
+.footer{
+    background-color: rgb(128, 160, 204);
+    padding: 20px;
+    /* margin: 30px 700px; */
+    display:flex;
+    border: 2px solid black;
+    border-radius: 10px;
     align-items: center;
+    justify-content: center;
+    
+
+   
 }
 
-.card1{
-    margin-left: 75px;
+.image{
+    width: 200px;
+    height: 200px;
+    margin-right: 50px;
 }
-#bulding{
-    width: 100px;
-    border-radius: 50%;
 
-}
-#sports{
-    width: 150px;
-    border-radius: 50%;
-
-}
-#picnic{
-    width: 100px;
-    border-radius: 50%;
-}
-.card1 p{
-    margin-right: 500px;
-}
-.card2 p{
-    margin-right: 300px;
-}
